@@ -8,7 +8,7 @@ export ZSH=/Users/alexbennett/.oh-my-zsh
 ZSH_THEME="robbyrussell"
 
 # Uncomment the following line to use case-sensitive completion.
-# CASE_SENSITIVE="true"
+CASE_SENSITIVE="true"
 
 # Uncomment the following line to use hyphen-insensitive completion. Case
 # sensitive completion must be off. _ and - will be interchangeable.
@@ -27,7 +27,7 @@ ZSH_THEME="robbyrussell"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
+ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # COMPLETION_WAITING_DOTS="true"
@@ -97,6 +97,7 @@ alias rs='rails server'
 alias migrate='rake db:migrate'
 alias roll='rake db:rollback'
 alias redo='rake db:migrate:redo'
+alias check='git checkout'
 
 
 
