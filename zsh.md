@@ -98,6 +98,7 @@ alias migrate='rake db:migrate'
 alias roll='rake db:rollback'
 alias redo='rake db:migrate:redo'
 alias check='git checkout'
+alias newbranch='git checkout -b'
 
 
 
